@@ -1,0 +1,8 @@
+requests
+qbittorrent-api
+SQLAlchemy
+psycopg2-binary
+pandas
+cinemagoer
+parse-torrent-name
+huggingface_hub
