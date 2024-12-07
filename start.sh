@@ -9,4 +9,4 @@ sleep 2
 start-stop-daemon --stop --name ${package}
 sleep 2
 echo "Final start at 7860!!!"
-${package} --webui-port=5002
+${package} --webui-port=7860
