@@ -6,4 +6,3 @@ pandas
 cinemagoer
 parse-torrent-name
 huggingface_hub
-flask
