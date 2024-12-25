@@ -16,7 +16,8 @@ qbt_client.auth_log_in()
 
 ## Install Search Plugins
 urls = ["https://gist.githubusercontent.com/scadams/56635407b8dfb8f5f7ede6873922ac8b/raw/f654c10468a0b9945bec9bf31e216993c9b7a961/one337x.py",
-        "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/torrentgalaxy.py",]
+        "https://raw.githubusercontent.com/nindogo/qbtSearchScripts/master/torrentgalaxy.py",
+        "https://raw.githubusercontent.com/BurningMop/qBittorrent-Search-Plugins/refs/heads/main/therarbg.py"]
 qbt_client.search_install_plugin(sources=urls)
 
 print("Search Plugins installed")
