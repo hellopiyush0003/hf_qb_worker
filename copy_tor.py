@@ -87,6 +87,7 @@ for tor in torrs:
             imdb_id = 'tt'+imdb[0].movieID if imdb else ''
             imdb_id = f"tt{imdb[0].movieID}:{ptn['season']}:{ptn['episode']}" if 'episode' in ptn.keys() else imdb_id
         else:
+            imdb_id = imdb_id.split(":")[0]
             imdb_id = f"{imdb_id}:{ptn['season']}:{ptn['episode']}" if 'episode' in ptn.keys() else imdb_id
         server_url = f"https://huggingface.co/datasets/{repo_id}/resolve/main/{file_hash}?download=true"
         
